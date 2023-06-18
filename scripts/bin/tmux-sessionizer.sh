@@ -14,9 +14,9 @@ selected_name=$(basename "$selected" | tr . _)
 tmux_running=$(pgrep tmux)
 
 if [[ -z $TMUX ]] && [[ -z $tmux_running ]]; then
-	tmux new-session -d -s $selected_name -c $selected
-	tmux rename-window Code
-	tmux new-window -dn Build -c $selected
+	tmux new-session -ds $selected_name -c $selected
+	tmux rename-window -t $selected_name:1 Code
+	tmux new-window -dn Build -c $selected -t $selected_name
 
 	tmux attach-session -dt $selected_name
 	exit 0
@@ -24,6 +24,8 @@ fi
 
 if ! tmux has-session -t=$selected_name 2>/dev/null; then
 	tmux new-session -ds $selected_name -c $selected
+	tmux rename-window -t $selected_name:1 Code
+	tmux new-window -dn Build -c $selected -t $selected_name
 fi
 
 if [[ -z $TMUX ]]; then
