@@ -132,7 +132,7 @@ alias work="workspace.sh"
 alias zws="workspace.sh"
 alias zfw="fuzzy-workspace.sh"
 
-bindkey -s '^n' 'tmux-sessionizer.sh\n'
+bindkey -s '^[n' 'tmux-sessionizer.sh\n'
 
 # Node Version Manager
 source /usr/share/nvm/init-nvm.sh
