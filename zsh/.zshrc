@@ -132,7 +132,7 @@ alias work="workspace.sh"
 alias zws="workspace.sh"
 alias zfw="fuzzy-workspace.sh"
 
-alias nvim-dev='nvim --cmd "set rtp+=."'
+alias nvim-dev='nvim -c "set rtp+=./"'
 
 bindkey -s '^[n' 'tmux-sessionizer.sh\n'
 
