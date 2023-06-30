@@ -193,6 +193,14 @@ mode "resize" {
 
 bindsym $mod+r mode "resize"
 
+# Scratchpad
+bindsym $mod+Shift+minus move scratchpad
+bindsym $mod+minus scratchpad show
+bindsym $mod+p [title="Pomodoro"] scratchpad show
+
+# Lock screen
+bindsym $mod+Ctrl+l exec "~/bin/lock.sh"
+
 set $rosewater #f5e0dc
 set $flamingo  #f2cdcd
 set $pink      #f5c2e7
