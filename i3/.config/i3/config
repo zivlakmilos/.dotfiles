@@ -255,6 +255,8 @@ client.background       #242424
 # finds out, if available)
 exec_always --no-startup-id ~/.config/polybar/launch.sh
 
+exec_always --no-startup-id picom
+
 exec_always --no-startup-id feh --bg-fill ~/.wallpapers/animated-fantasy-forest-j1gmkphkmcuiqtqi.jpg
 
 exec_always --no-startup-id setxkbmap -option caps:swapescape
