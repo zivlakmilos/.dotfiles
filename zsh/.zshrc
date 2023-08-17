@@ -115,6 +115,10 @@ fi
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
+export ANDROID_HOME=/opt/android-sdk
+export PATH=$PATH:$ANDROID_HOME/cmdline-tools/latest/bin
+export PATH=$PATH:$ANDROID_HOME/platform-tools
+
 alias ls="exa --color=always --icons"
 alias ll="ls -l"
 alias llt="ls -l --sort newest"
@@ -131,6 +135,9 @@ alias ws="workspace.sh"
 alias work="workspace.sh"
 alias zws="workspace.sh"
 alias zfw="fuzzy-workspace.sh"
+
+alias vim="nvim"
+alias vi="nvim"
 
 alias nvim-dev='nvim -c "set rtp+=./"'
 
