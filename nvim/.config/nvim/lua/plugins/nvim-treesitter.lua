@@ -20,6 +20,7 @@ return {
       "typescript",
       "vim",
       "yaml",
+      "embedded_template",
     },
   },
 }
