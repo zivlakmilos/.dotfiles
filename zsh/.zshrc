@@ -120,6 +120,9 @@ export PATH=$PATH:$ANDROID_HOME/cmdline-tools/latest/bin
 export PATH=$PATH:$ANDROID_HOME/platform-tools
 export PATH=$PATH:$ANDROID_HOME/emulator
 
+export GOPATH=~/go
+export PATH=$PATH:$GOPATH/bin
+
 alias ls="exa --color=always --icons"
 alias ll="ls -l"
 alias llt="ls -l --sort newest"
@@ -149,3 +152,5 @@ bindkey -s '^[n' 'tmux-sessionizer.sh\n'
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+
+export QSYS_ROOTDIR="/home/zi/.cache/paru/clone/quartus-free/pkg/quartus-free-quartus/opt/intelFPGA/21.1/quartus/sopc_builder/bin"
