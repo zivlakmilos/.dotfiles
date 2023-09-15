@@ -25,6 +25,7 @@ fi
 if ! tmux has-session -t=$selected_name 2>/dev/null; then
 	tmux new-session -ds $selected_name -c $selected
 	tmux rename-window -t $selected_name:1 Code
+	tmux send-keys -t $selected_name:1 nvim Enter
 	tmux new-window -dn Build -c $selected -t $selected_name
 fi
 
