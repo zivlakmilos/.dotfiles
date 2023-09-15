@@ -16,6 +16,7 @@ tmux_running=$(pgrep tmux)
 if [[ -z $TMUX ]] && [[ -z $tmux_running ]]; then
 	tmux new-session -ds $selected_name -c $selected
 	tmux rename-window -t $selected_name:1 Code
+	tmux send-keys -t $selected_name:1 nvim Enter
 	tmux new-window -dn Build -c $selected -t $selected_name
 
 	tmux attach-session -dt $selected_name
