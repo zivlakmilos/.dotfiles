@@ -146,7 +146,10 @@ alias vi="nvim"
 alias nvim-dev='nvim -c "set rtp+=./"'
 
 alias zkw="zk --working-dir=$HOME/notebook/work/ edit -i"
+alias zkwd="zk --working-dir=$HOME/notebook/work/ new --no-input journal/daily"
 alias zkp="zk --working-dir=$HOME/notebook/personal/ edit -i"
+alias zkpd="zk --working-dir=$HOME/notebook/personal/ new --no-input journal/daily"
+alias zki="zk --working-dir=$HOME/notebook/work/ index && zk --working-dir=$HOME/notebook/personal/ index"
 
 bindkey -s '^[n' 'tmux-sessionizer.sh\n'
 

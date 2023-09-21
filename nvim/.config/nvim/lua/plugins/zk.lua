@@ -17,11 +17,6 @@ return {
       desc = "ZkNotes",
     },
     {
-      "<leader>zo",
-      "<Cmd>ZkNotes { sort = { 'modified' } }<CR>",
-      desc = "ZkNotes",
-    },
-    {
       "<leader>zt",
       "<Cmd>ZkTags<CR>",
       desc = "ZkNotes",
