@@ -19,7 +19,7 @@ return {
     {
       "<leader>zt",
       "<Cmd>ZkTags<CR>",
-      desc = "ZkNotes",
+      desc = "ZkTags",
     },
   },
 }
