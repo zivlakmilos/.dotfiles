@@ -120,7 +120,7 @@ export PATH=$PATH:$ANDROID_HOME/cmdline-tools/latest/bin
 export PATH=$PATH:$ANDROID_HOME/platform-tools
 export PATH=$PATH:$ANDROID_HOME/emulator
 
-export GOPATH=~/go
+export GOPATH=$HOME/go
 export PATH=$PATH:$GOPATH/bin
 
 alias ls="exa --color=always --icons"
