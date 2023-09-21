@@ -145,6 +145,9 @@ alias vi="nvim"
 
 alias nvim-dev='nvim -c "set rtp+=./"'
 
+alias zkw="zk --working-dir=$HOME/notebook/work/ edit -i"
+alias zkp="zk --working-dir=$HOME/notebook/personal/ edit -i"
+
 bindkey -s '^[n' 'tmux-sessionizer.sh\n'
 
 # Node Version Manager
