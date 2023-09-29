@@ -4,4 +4,5 @@
 
 local opt = vim.opt
 
+-- Disable default: Use system clipboard
 opt.clipboard = ""
