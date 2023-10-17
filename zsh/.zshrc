@@ -7,7 +7,7 @@ fi
 
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
-export PATH=$PATH:/home/zi/mxe/usr/bin:/home/zi/bin
+export PATH=$PATH:$HOME/mxe/usr/bin:$HOME/bin
 
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
@@ -122,6 +122,8 @@ export PATH=$PATH:$ANDROID_HOME/emulator
 
 export GOPATH=$HOME/go
 export PATH=$PATH:$GOPATH/bin
+
+export PATH=$PATH:$HOME/.cargo/bin
 
 alias ls="exa --color=always --icons"
 alias ll="ls -l"
