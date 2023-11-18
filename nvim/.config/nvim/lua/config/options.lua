@@ -6,3 +6,9 @@ local opt = vim.opt
 
 -- Disable default: Use system clipboard
 opt.clipboard = ""
+
+vim.filetype.add({
+  extension = {
+    templ = "templ",
+  },
+})
