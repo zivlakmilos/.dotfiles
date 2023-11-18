@@ -22,6 +22,7 @@ return {
       "yaml",
       "go",
       "embedded_template",
+      "templ",
     },
   },
 }
