@@ -3,7 +3,12 @@ return {
   opts = {
     servers = {
       templ = {},
-      htmx = {},
+      htmx = {
+        filetypes = { "html", "templ" },
+      },
+      tailwindcss = {
+        filetypes = { "templ" },
+      },
     },
   },
 }
