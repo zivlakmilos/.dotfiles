@@ -161,7 +161,7 @@ bindkey -s '^[n' 'tmux-sessionizer.sh\n'
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
-export QSYS_ROOTDIR="/home/zi/.cache/paru/clone/quartus-free/pkg/quartus-free-quartus/opt/intelFPGA/21.1/quartus/sopc_builder/bin"
+export QSYS_ROOTDIR="/home/zi/.cache/paru/clone/quartus-free/pkg/quartus-free-quartus/opt/intelFPGA/23.1/quartus/sopc_builder/bin"
 
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
