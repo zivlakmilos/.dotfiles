@@ -155,6 +155,8 @@ alias zki="zk --working-dir=$HOME/notebook/work/ index && zk --working-dir=$HOME
 
 bindkey -s '^[n' 'tmux-sessionizer.sh\n'
 
+bindkey '^Y' autosuggest-accept
+
 # Node Version Manager
 #source /usr/share/nvm/init-nvm.sh
 
