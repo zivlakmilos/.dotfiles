@@ -89,7 +89,7 @@ return {
       },
     },
     opts = {
-      history = true,
+      history = false,
       delete_check_events = "TextChanged",
     },
     -- stylua: ignore
