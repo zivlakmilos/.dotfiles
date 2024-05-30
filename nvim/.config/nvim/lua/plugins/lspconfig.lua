@@ -10,5 +10,8 @@ return {
         filetypes = { "templ" },
       },
     },
+    inlay_hints = {
+      enabled = false,
+    },
   },
 }
