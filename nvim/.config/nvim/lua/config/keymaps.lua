@@ -17,7 +17,7 @@ end, { desc = "Reload Curret Dev Plugin" })
 
 vim.keymap.set("n", "<leader>nt", "<leader>at", { desc = "Run Plenery Tests", remap = true })
 
-vim.keymap.set("n", "<A-n>", "<cmd>silent !tmux neww tmux-sessionizer.sh<cr>")
+vim.keymap.set("n", "<A-m>", "<cmd>silent !tmux neww tmux-sessionizer.sh<cr>")
 
 vim.keymap.set({ "n", "v" }, "<leader>y", [["+y]], { desc = "Yank in system clipboard", remap = true })
 vim.keymap.set({ "n", "v" }, "<leader>p", [["+p]], { desc = "Paste in system clipboard", remap = true })
