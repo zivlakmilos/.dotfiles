@@ -261,13 +261,13 @@ for_window [class="timetrace"] border pixel 5
 exec --no-startup-id alacritty --class timetrace,timetrace
 bindsym $mod+Shift+p exec --no-startup-id "alacritty --class timetrace,timetrace";
 
-bindsym $mod+o [class="vifm"] scratchpad show; move position center
-for_window [class="vifm"] floating enable
-for_window [class="vifm"] resize 720 400
-for_window [class="vifm"] move scratchpad
-for_window [class="vifm"] border pixel 5
-exec --no-startup-id alacritty --class vifm,vifm -e vifm
-bindsym $mod+Shift+o exec --no-startup-id "alacritty --class vifm,vifm -e vifm"
+bindsym $mod+o [class="calcurse"] scratchpad show; move position center
+for_window [class="calcurse"] floating enable
+for_window [class="calcurse"] resize 720 400
+for_window [class="calcurse"] move scratchpad
+for_window [class="calcurse"] border pixel 5
+exec --no-startup-id alacritty --class calcurse,calcurse -e calcurse
+bindsym $mod+Shift+o exec --no-startup-id "alacritty --class calcurse,calcurse -e calcurse"
 
 # Lock screen
 bindsym $mod+Ctrl+l exec "~/bin/lock.sh"
