@@ -21,3 +21,6 @@ vim.filetype.add({
 -- * a pattern or array of patterns like `.git` or `lua`.
 -- * a function with signature `function(buf) -> string|string[]`
 vim.g.root_spec = { { ".git", "lua" }, "lsp", "cwd" }
+
+-- Disable animations
+vim.g.snacks_animate = false
