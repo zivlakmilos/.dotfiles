@@ -182,6 +182,10 @@ fi
 unset __conda_setup
 # <<< conda initialize <<<
 
+# >>> miniconda initialize >>>
+[ -f /opt/miniconda3/etc/profile.d/conda.sh ] && source /opt/miniconda3/etc/profile.d/conda.sh
+# <<< miniconda initialize <<<
+
 
 # >>> nvm initialize >>>
 export NVM_DIR="$HOME/.nvm"
