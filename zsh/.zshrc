@@ -127,6 +127,8 @@ export PATH=$PATH:$GOPATH/bin
 
 export PATH=$PATH:$HOME/.cargo/bin
 
+export PATH="$PATH:/opt/clang-format-static"
+
 alias ls="exa --color=always --icons"
 alias ll="ls -l"
 alias llt="ls -l --sort newest"
