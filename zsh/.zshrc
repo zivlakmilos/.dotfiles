@@ -115,6 +115,8 @@ fi
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
+export LIBVIRT_DEFAULT_URI="qemu:///system"
+
 export ANDROID_HOME=$HOME/Android/Sdk
 export ANDROID_NDK_ROOT=$ANDROID_HOME/ndk/26.2.11394342
 export PATH=$PATH:$ANDROID_HOME/cmdline-tools/latest/bin
