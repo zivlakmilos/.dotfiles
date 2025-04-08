@@ -10,32 +10,32 @@ return {
       desc = "Run with Args",
     },
     {
-      "<F6>",
+      "<F9>",
       function()
-        require("dap").step_out()
+        require("dap").toggle_breakpoint()
       end,
-      desc = "Step Out",
+      desc = "Toggle Breakpoint",
     },
     {
-      "<F7>",
+      "<F10>",
       function()
         require("dap").step_over()
       end,
       desc = "Step Over",
     },
     {
-      "<F8>",
+      "<F11>",
       function()
         require("dap").step_into()
       end,
       desc = "Step Into",
     },
     {
-      "<F9>",
+      "<F12>",
       function()
-        require("dap").toggle_breakpoint()
+        require("dap").step_out()
       end,
-      desc = "Toggle Breakpoint",
+      desc = "Step Out",
     },
   },
 }
