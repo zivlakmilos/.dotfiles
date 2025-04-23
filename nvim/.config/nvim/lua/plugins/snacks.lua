@@ -16,5 +16,6 @@ return {
     ]],
       },
     },
+    bigfile = { enabled = false },
   },
 }
