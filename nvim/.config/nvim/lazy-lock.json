@@ -53,5 +53,5 @@
   "undotree": { "branch": "master", "commit": "b951b87b46c34356d44aa71886aecf9dd7f5788a" },
   "vim-fugitive": { "branch": "master", "commit": "4a745ea72fa93bb15dd077109afbb3d1809383f2" },
   "which-key.nvim": { "branch": "main", "commit": "370ec46f710e058c9c1646273e6b225acf47cbed" },
-  "zk-nvim": { "branch": "main", "commit": "38883a68d2f744dc071ff736fc5e8d68e1b321f6" }
+  "zk-nvim": { "branch": "main", "commit": "64d2b1f8f6f928eb2204b47e5e204dd31419eb85" }
 }
