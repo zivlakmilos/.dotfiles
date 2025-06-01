@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+tmux rename-window -t 1 Code
+tmux send-keys -t 1 nvim Enter
+tmux new-window -dn Build
