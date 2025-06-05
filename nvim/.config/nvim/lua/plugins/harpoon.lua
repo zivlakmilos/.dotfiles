@@ -31,16 +31,16 @@ return {
     local ui = require("harpoon" .. ".ui")
 
     -- Harpoon marked files 1 through 4.
-    vim.keymap.set("n", "<a-1>", function()
+    vim.keymap.set("n", "<a-4>", function()
       ui.nav_file(1)
     end)
-    vim.keymap.set("n", "<a-2>", function()
+    vim.keymap.set("n", "<a-3>", function()
       ui.nav_file(2)
     end)
-    vim.keymap.set("n", "<a-3>", function()
+    vim.keymap.set("n", "<a-2>", function()
       ui.nav_file(3)
     end)
-    vim.keymap.set("n", "<a-4>", function()
+    vim.keymap.set("n", "<a-1>", function()
       ui.nav_file(4)
     end)
 
@@ -53,7 +53,7 @@ return {
     end)
 
     -- Harpoon user interface.
-    vim.keymap.set("n", "<a-0>", ui.toggle_quick_menu)
+    vim.keymap.set("n", "<a-7>", ui.toggle_quick_menu)
     vim.keymap.set("n", "<a-5>", mark.add_file)
   end,
 
