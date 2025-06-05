@@ -212,6 +212,8 @@ bindsym $mod+Shift+F10 move container to workspace number $ws20
 
 
 for_window [workspace="1"] layout tabbed
+for_window [workspace="5"] layout tabbed
+for_window [workspace="6"] layout tabbed
 for_window [workspace="10"] layout tabbed
 
 # reload the configuration file
@@ -306,7 +308,7 @@ set $crust     #11111b
 #client.placeholder       $overlay0 $base $text  $overlay0  $overlay0
 #client.background        $base
 
-gaps inner 4 
+gaps inner 4
 gaps outer 4
 
 # Remove title bar text
