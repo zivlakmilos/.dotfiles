@@ -9,7 +9,7 @@
   "conform.nvim": { "branch": "master", "commit": "0e93e0d12d2f7ebdea9e3e444dfaff0050cefbe6" },
   "flash.nvim": { "branch": "main", "commit": "3c942666f115e2811e959eabbdd361a025db8b63" },
   "friendly-snippets": { "branch": "main", "commit": "572f5660cf05f8cd8834e096d7b4c921ba18e175" },
-  "fzf-lua": { "branch": "main", "commit": "6d1d81a5c7936d82a47a41a521958e482e499fde" },
+  "fzf-lua": { "branch": "main", "commit": "70a1c1d266af2ea4d1d9c16e09c60d3fc8c5aa5f" },
   "gen.nvim": { "branch": "main", "commit": "c8e1f574d4a3a839dde73a87bdc319a62ee1e559" },
   "gitsigns.nvim": { "branch": "main", "commit": "d0f90ef51d4be86b824b012ec52ed715b5622e51" },
   "gopher.nvim": { "branch": "main", "commit": "9db5931af1293ae52500921d92c02145d86df02c" },
@@ -24,7 +24,7 @@
   "mini.ai": { "branch": "main", "commit": "5225f16eacf4dce2cb7204ca345123ef54e209d6" },
   "mini.icons": { "branch": "main", "commit": "397ed3807e96b59709ef3292f0a3e253d5c1dc0a" },
   "mini.pairs": { "branch": "main", "commit": "69864a2efb36c030877421634487fd90db1e4298" },
-  "neo-tree.nvim": { "branch": "main", "commit": "f3e8633f06007e015f855d3c1ec0cee23af14d8e" },
+  "neo-tree.nvim": { "branch": "main", "commit": "b287285c24ee5dca63d0000230a5a04e681b8db6" },
   "neotest": { "branch": "master", "commit": "ef492755730e59e1d8122c461abbd086bee4c76b" },
   "neotest-golang": { "branch": "main", "commit": "c452301848418baf244e2da34491157bca7614c1" },
   "neotest-jest": { "branch": "main", "commit": "514fd4eae7da15fd409133086bb8e029b65ac43f" },
@@ -53,5 +53,5 @@
   "undotree": { "branch": "master", "commit": "b951b87b46c34356d44aa71886aecf9dd7f5788a" },
   "vim-fugitive": { "branch": "master", "commit": "4a745ea72fa93bb15dd077109afbb3d1809383f2" },
   "which-key.nvim": { "branch": "main", "commit": "370ec46f710e058c9c1646273e6b225acf47cbed" },
-  "zk-nvim": { "branch": "main", "commit": "08f3591d55cc73828a99019ef6545b939a88cc13" }
+  "zk-nvim": { "branch": "main", "commit": "b18782530b23ad118d578c0fa0e4d0b8d386db4c" }
 }
