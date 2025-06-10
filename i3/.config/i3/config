@@ -332,7 +332,7 @@ exec_always --no-startup-id picom
 
 exec_always --no-startup-id feh --bg-fill ~/.wallpapers/animated-fantasy-forest-j1gmkphkmcuiqtqi.jpg
 
-exec_always --no-startup-id setxkbmap -option caps:swapescape
+#exec_always --no-startup-id setxkbmap -option caps:swapescape
 
 #exec_always --no-startup-id setxkbmap -layout us,rs,rs -variant ,latinyz,
 exec_always --no-startup-id setxkbmap -option grp:alt_shift_toggle -layout us,rs,rs -variant ,latinyz,
@@ -342,3 +342,4 @@ exec_always --no-startup-id dunst
 exec_always --no-startup-id flameshot
 
 bindsym Print exec --no-startup-id flameshot gui
+bindsym $mod+Shift+s exec --no-startup-id flameshot gui
