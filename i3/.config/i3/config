@@ -10,6 +10,7 @@
 # Please see https://i3wm.org/docs/userguide.html for a complete reference!
 
 set $mod Mod4
+set $alt Mod1
 set $font Hack Regular 11
 
 # Font for window titles. Will also be used by the bar unless a different font
@@ -343,3 +344,9 @@ exec_always --no-startup-id flameshot
 
 bindsym Print exec --no-startup-id flameshot gui
 bindsym $mod+Shift+s exec --no-startup-id flameshot gui
+
+# Macro keyboard
+bindsym $alt+Ctrl+1 exec --no-startup-id timetrace stop
+bindsym $alt+Ctrl+2 exec --no-startup-id timetrace start hexagon +work +hexagon
+bindsym $alt+Ctrl+9 exec --no-startup-id timetrace start perfin +personal
+bindsym $alt+Ctrl+0 exec --no-startup-id alacritty
