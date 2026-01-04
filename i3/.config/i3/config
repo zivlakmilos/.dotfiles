@@ -347,6 +347,6 @@ bindsym $mod+Shift+s exec --no-startup-id flameshot gui
 
 # Macro keyboard
 bindsym $alt+Ctrl+1 exec --no-startup-id timetrace stop
-bindsym $alt+Ctrl+2 exec --no-startup-id timetrace start hexagon +work +hexagon
-bindsym $alt+Ctrl+9 exec --no-startup-id timetrace start perfin +personal
-bindsym $alt+Ctrl+0 exec --no-startup-id alacritty
+bindsym $alt+Ctrl+2 exec --no-startup-id timetrace start hexagon +work +hexagon +coding
+bindsym $alt+Ctrl+4 exec --no-startup-id timetrace start hexagon +work +hexagon +meeting
+bindsym $alt+Ctrl+9 exec --no-startup-id timetrace start perfin +personal +coding
