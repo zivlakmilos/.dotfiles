@@ -2,7 +2,7 @@
 	email = zivlakmilos@gmail.com
 	name = Milos Zivlak
 [init]
-  defaultBranch = master
+	defaultBranch = master
 
 [includeIf "gitdir:/home/zi/work/hexagon/"]
   path = /home/zi/work/hexagon/.gitconfig
