@@ -185,3 +185,8 @@ export NVM_DIR="$HOME/.nvm"
 # >>> fzf initialize >>>
 eval "$(fzf --zsh)"
 # <<< fzf initialize <<<
+
+# heksagon
+
+alias sshex="ssh -i ~/.ssh/hexagon"
+alias scphex="scp -i ~/.ssh/hexagon"
