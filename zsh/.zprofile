@@ -16,3 +16,5 @@ export PATH="$PATH:/opt/clang-format-static"
 
 export FLUTTER_HOME=$HOME/opt/flutter
 export PATH="$PATH:$FLUTTER_HOME/bin"
+
+export QT_QPA_PLATFORMTHEME=qt6ct
