@@ -6,3 +6,5 @@
 
 [includeIf "gitdir:/home/zi/work/hexagon/"]
   path = /home/zi/work/hexagon/.gitconfig
+[merge]
+	tool = meld
