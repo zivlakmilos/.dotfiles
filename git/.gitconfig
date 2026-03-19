@@ -8,3 +8,5 @@
   path = /home/zi/work/hexagon/.gitconfig
 [merge]
 	tool = meld
+[blame]
+	ignoreRevsFile = .git-blame-ignore-revs
