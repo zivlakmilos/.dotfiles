@@ -338,6 +338,8 @@ exec_always --no-startup-id feh --bg-fill ~/.wallpapers/animated-fantasy-forest-
 #exec_always --no-startup-id setxkbmap -layout us,rs,rs -variant ,latinyz,
 exec_always --no-startup-id setxkbmap -option grp:alt_shift_toggle -layout us,rs,rs -variant ,latinyz,
 
+#exec_always --no-startup-id xset s off -dpms # disable monitor dim
+
 exec_always --no-startup-id dunst
 
 exec_always --no-startup-id flameshot
