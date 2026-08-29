@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 TMPBG=/tmp/screen.png
 LOCK=$HOME/.wallpapers/lock.png
 RES=$(xrandr | grep 'current' | sed -E 's/.*current\s([0-9]+)\sx\s([0-9]+).*/\1x\2/')

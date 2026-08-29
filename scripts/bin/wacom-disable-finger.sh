@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 xinput disable "Wacom Bamboo Craft Finger touch"
 
