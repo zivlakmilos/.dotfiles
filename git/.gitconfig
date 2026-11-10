@@ -10,3 +10,5 @@
 	tool = meld
 [blame]
 	ignoreRevsFile = .git-blame-ignore-revs
+[mergotool "meld"]
+	useAutoMerge = true
